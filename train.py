@@ -3,7 +3,7 @@ import numpy
 import pickle
 start_time=time.time()
 #Opening a File providing only the read access
-f = open("r8-train-all-terms.txt","rw+")
+f = open("r8-train-all-terms.txt","r")
 #Reading all the lines in the file in a list
 list_of_all_lines=f.readlines()
 m=len(list_of_all_lines)
